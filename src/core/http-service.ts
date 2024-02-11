@@ -1,7 +1,7 @@
 import axios, { AxiosRequestConfig, AxiosRequestHeaders } from "axios";
 
 const httpService = axios.create({
-  baseURL: "XXXXXXXXXXXXXXXXXXXXX",
+  baseURL: "http://localhost:3000",
   headers: {
     "Content-Type": "application/json",
   },
